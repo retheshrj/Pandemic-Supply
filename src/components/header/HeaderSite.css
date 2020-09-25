@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    padding: .2em .6em;
+    border-radius: 16px 16px 0 0;
+    background-color: black;
+    margin-bottom: 1.6em;
+    color: white;
+}
+
+.header_logo {
+    height: 2em;
+    display: flex;
+    align-items: center;
+}
+    .header_logo h4 { 
+        font-weight: 600;
+    }
+.it-logo-header {
+    max-height: 6rem;
+    margin-right: 2em;
+  }

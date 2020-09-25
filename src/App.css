@@ -1,0 +1,43 @@
+@import './fonts.css';
+
+.App {
+  text-align: center;
+}
+.clear-margin {
+  margin: 0;
+}
+.MuiButton-containedPrimary {
+  border-radius: 3em!important;
+}
+
+/* Sitewide Styles */
+body {
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+
+#root h4 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.cardOption {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+.cardOption .actionButton {
+  margin: .6emem;
+  align-self: flex-end;
+}
+button.actionButton {
+  margin:1em;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
